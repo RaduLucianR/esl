@@ -1,4 +1,5 @@
 # Bare-metal Sobel
+For a more high-level overview go [here](https://rlradulescu.com/portfolio/12-BareMetal/).
 Bare-metal C program that parallelizes the Sobel Computer Vision algorithm used for identifying edges of objects in an image. The code was written for the [CompSoC platform](http://compsoc.eu/) developed at TU Eindhoven. The platform was simulated on a Xilinx FPGA. This project was done for the Embedded Systems Lab (ESL) course at TU Eindhoven.
 
 CompSoC is a predictable and composable architecture based on RISC-V. The predictability property ensures that CompSoC offers hard real-time guarantees. This is achieved via sequential consistency, i.e. all processors in the system observe the same sequential order of memory operations (reads and writes) as if the operations were executed atomically one at a time.parallel threads/processors see the same order of instructions.
